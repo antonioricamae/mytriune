@@ -229,7 +229,7 @@ class triuneAuth extends MY_Controller {
  
                     //echo $message; //send this in email
 					
-					$this->_sendMail($toEmail ="dcisleta@tua.edu.ph", $subject = "For Verification", $message);
+					$this->_sendMail($toEmail ="kyle6301@tua.edu.ph", $subject = "For Verification", $message);
 
 				} else {
 					$this->session->set_flashdata('msg', "The personal information you've typed do not matched with your current records!");
